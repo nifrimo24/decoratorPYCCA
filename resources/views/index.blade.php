@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-   <index-categories></index-categories>
+
+    <index-environment></index-environment>
+    <!--<init-environment></init-environment>-->
    <!--<index-environment></index-environment>-->
 @endsection

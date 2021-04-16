@@ -13,10 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('/', App\Http\Controllers\InitController::class);
+Route::get('/categories', App\Http\Controllers\InitCategoryController::class);
 
 
